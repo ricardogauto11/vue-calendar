@@ -19,7 +19,7 @@ firebase.initializeApp({
   measurementId: "G-7GTN6EYZK3"
 })
 
-export const db = firebase.firestore()
+export const db = firebase.firestore();
 
 new Vue({
   vuetify,
